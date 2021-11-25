@@ -50,8 +50,8 @@ logging:
     path: /workspace/logs/
   logback:
     rollingpolicy:
-      max-file-size: 4GB
-      max-history: 120
+      max-file-size: 1MB
+      max-history: 1
 
   level:
     root: INFO
